@@ -1,25 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Space+Grotesk:wght@300..700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 h1 {
-  color: red;
-  font-style: italic;
-  font-weight: lighter;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+
+  font-weight: bolder;
+  font-family: "Space Grotesk", sans-serif;
   text-decoration: overline;
   font-size: 80px;
   text-align: center;
 }
 
 #heading-parent {
-  background-color: rgb(31, 14, 8);
+  background-image: linear-gradient(45deg, #730654, transparent),
+    url("../asset/hero.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 600px;
   padding: 100px 0;
-  width: 1100px;
+  max-width: 1100px;
+  clip-path: polygon(100% 0, 100% 74%, 54% 100%, 0 100%, 0 0);
+  /* tumi jodi 1100px er beshi width pao tahole only 1100px e nao. 
+   na hole 100% nao */
   /* margin-top: 40px;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto; */
   margin: 30px auto;
+}
+.btn-parent {
+  text-align: center;
+  margin: 20px 0;
+}
+.btn {
+  background-color: rgb(137, 41, 182);
+  padding: 8px 15px;
+  color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: yellow;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Gamja Flower", sans-serif;
 }
